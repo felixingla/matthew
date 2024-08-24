@@ -20,6 +20,7 @@ function App() {
           href="https://www.mundodeportivo.com/"
           target="_blank"
           className="App-link"
+          rel="noopener noreferrer"
         >
           mundodeportivo
         </a>
@@ -28,6 +29,7 @@ function App() {
           className="App-link"
           target="_blank"
           style={{ color: "brown" }}
+          rel="noopener noreferrer"
         >
           croissant de chocolate 🥐🥐
         </a>
@@ -35,10 +37,15 @@ function App() {
         <a
           href="https://www.ea.com/es-es/games/ea-sports-fc/fc-24"
           style={{ color: "black" }}
+          rel="noopener noreferrer"
         >
           fc24
         </a>
-        <img src={lamine} style={{ width: "80%", marginTop: "25px" }}></img>
+        <img
+          src={lamine}
+          style={{ width: "80%", marginTop: "25px" }}
+          alt="lamine yamal and nico williams dancing"
+        ></img>
       </header>
     </div>
   );
